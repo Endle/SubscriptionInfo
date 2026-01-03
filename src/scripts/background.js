@@ -69,6 +69,10 @@ const addPSPlusToGames = async (games) => {
 				if (!game.subs) game.subs = {};
 				game.subs.psplus = {
 					status: 'active',
+					date: {
+						since: null,
+						until: null
+					},
 					link: psplusMatch.conceptUrl,
 					target: '_blank'
 				};
