@@ -27,6 +27,8 @@ switch (navigator.language) {
                         return "EA PLAY"
                     case "eaplaypro":
                         return "EA PLAY PRO"
+                    case "psplus":
+                        return "PS PLUS"
                 }
             },
             options: {
