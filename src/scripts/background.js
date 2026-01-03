@@ -9,7 +9,7 @@ const loadPSPlusGames = async () => {
 
 	psplusLoadPromise = (async () => {
 		try {
-			const url = chrome.runtime.getURL('psplus_games.json');
+			const url = 'https://www.playstation.com/bin/imagic/gameslist?locale=en-us&categoryList=plus-games-list';
 			const response = await fetch(url);
 			const data = await response.json();
 

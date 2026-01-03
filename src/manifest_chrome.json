@@ -34,7 +34,7 @@
     "web_accessible_resources": [
         {
             "matches": [ "*://store.steampowered.com/*" ],
-            "resources": [ "options.json", "psplus_games.json" ]
+            "resources": [ "options.json" ]
         }
     ],
     "host_permissions": [ "https://aligueler.com/", "https://www.playstation.com/" ]
